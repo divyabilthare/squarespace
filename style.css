@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'gilroy';
+    COLOR:#FFF;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+} 
+#main{
+    height:100%;
+    width:100%;
+    background-color:black;
+
+}
+#nav{
+    height: 80px;
+    width:100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30px;
+}
+#navbar-1{
+    display: flex;
+  gap:55px;
+   
+}
+#navbar-2{
+    display:flex;
+    gap:55px;
+}
+img {
+    height: 65px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+}
+
+
+#nav h4{
+    text-transform: uppercase;
+    padding: 18px 25px; 
+}
+#nav button{
+    background-color: #FFF;
+    color: black;
+     padding: 18px 25px; 
+    border:none;
+     font-weight: 700;
+    font-size: 16px;
+}  
+#main h1{
+    font-size:90px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#main h1 span{
+    background-color: brown;
+    font-size: 25px;
+    padding: 20px 40px; 
+    border-radius: 50px;
+    margin: 0 20px;
+
+
+}
+
+#main #left-img{
+    height: 300px;
+    position: absolute;
+    top: 14%;
+    left: 7%;
+    border-radius: 30px;
+}
+#main #right-img{
+    height: 300px;
+    position: absolute;
+    top: 14%;
+    right: 7%;
+    border-radius: 30px;
+}
+
+#main #left1-img{
+    height: 200px;
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    border-radius: 50px;
+}
+
+#main #right1-img{
+    height: 200px;
+    position: absolute;
+    bottom: 5%;
+    right: 7%;
+    border-radius: 30px;
+}
+
+
