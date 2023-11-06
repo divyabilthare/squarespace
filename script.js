@@ -18,3 +18,13 @@ tl.from("#main>img",{
     stagger:0.3
 })
 
+tl.from("h5",{
+    scale:0,
+    opacity:0
+})
+tl.to("h5",{
+    y:30,
+    repeat:-1,
+    duration:0.7,
+    yoyo:true
+})
